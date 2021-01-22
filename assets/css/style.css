@@ -1,0 +1,173 @@
+/*----------------------------------------
+  Google Fonts
+----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+/* 
+  font-family: 'Work Sans', sans-serif;
+*/
+
+/*----------------------------------------
+  Default Styles
+----------------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: #2e2e2e;
+    color: rgb(234, 204, 194);
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper-with-options {
+    max-width: 1400px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*----------------------------------------
+  top-nav
+----------------------------------------*/
+
+.top-nav>ul a {
+    color: #867772;
+}
+
+.top-nav>ul a:hover {
+    color: rgb(234, 204, 194);
+    border-bottom: 1px solid rgb(234, 204, 194);
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+.top-nav>ul>li:nth-of-type(1) {
+    padding-right: 50px;
+}
+
+.top-nav>ul>li:nth-of-type(2) {
+    padding-right: 20px;
+}
+
+.top-nav>ul>li:nth-of-type(3) {
+    padding-right: 20px;
+}
+
+.top-nav>ul>li:nth-of-type(5) {
+    padding-left: 50px;
+}
+
+/*----------------------------------------
+  side-nav
+----------------------------------------*/
+
+.side-nav {
+    margin-left: 50px;
+    border-left: 1px solid;
+    padding: 10% 0 10% 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.side-nav>a {
+    color: #867772;
+    position: relative;
+}
+
+.side-nav>a:hover {
+    color: rgb(234, 204, 194);
+}
+
+.side-nav a::before {
+    position: absolute;
+    top: 3px;
+    left: -53px;
+    border-radius: 50%;
+    background-color: #2E2E2E;
+    border: 1px solid #fff;
+    height: 15px;
+    width: 15px;
+    content: "";
+    /*transition: box-shadow 2s linear;*/
+}
+
+.side-nav a.active::before {
+    position: absolute;
+    top: 3px;
+    left: -53px;
+    border-radius: 50%;
+    background-color: #2E2E2E;
+    border: 1px solid #fff;
+    height: 15px;
+    width: 15px;
+    box-shadow: 0 0 0 4px #fff;
+    content: "";
+}
+
+.side-nav a.active {
+    color: #fff;
+}
+
+/*----------------------------------------
+  section about
+----------------------------------------*/
+
+section:nth-of-type(1)>h1 {
+    width: 40%;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 15% 0;
+}
+
+/*----------------------------------------
+  section about / DESIGN ALCHEMY
+----------------------------------------*/
+section:nth-of-type(2) {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+section:nth-of-type(2) > div {
+    margin-left: 5%;
+    width: 50%;
+}
+
+section:nth-of-type(2) > div > p {
+    font-size: 1.5em;
+    font-weight: 300;
+}
