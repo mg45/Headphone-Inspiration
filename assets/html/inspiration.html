@@ -10,57 +10,108 @@
 
 <body>
     <!-- ========== START HEADER ========== -->
-    <header class="wrapper-with-options">
+    <header>
         <!-- Start Top Nav-->
-        <nav class="top-nav">
-            <img src="../img/logo.svg" alt="Headphone Logo">
-            <ul>
-                <li><a href="#">Subscribe & Contact</a></li>
-                <li><a href="#">facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Youtube</a></li>
-                <li><a href="#">DE</a></li>
-            </ul>
-        </nav>
+        <div class="flex-grid">
+            <div class="col-1">
+                <img src="../img/logo.svg" alt="Headphone Logo">
+            </div>
+            <div class="col-2">
+                <a href="#">Subscribe & Contact</a>
+            </div>
+            <div class="col-3">
+                <a href="#">facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Youtube</a>
+            </div>
+            <div class="col-4">
+                <a href="#">DE</a>
+            </div>
+        </div>
         <!-- End Top Nav-->
     </header>
     <!-- ========== END HEADER ========== -->
 
     <!-- ========== START SIDE-NAV ========== -->
     <div class="side-nav">
-        <a href="../../index.html">About</a>
-        <a href="lounger.html">Lounger</a>
-        <a href="experience.html">Experience</a>
-        <a class="active" href="assets/html/inspiration.html">Inspiration</a>
-        <a href="shop.html">Shop</a>
+        <ul>
+            <li>
+                <span class="circle-one"></span>
+                <a href="../../index.html">About</a>
+                <span class="connector"></span>
+            </li>
+            <li>
+                <span class="circle-one"></span>
+                <a href="lounger.html">Lounger</a>
+                <span class="connector"></span>
+            </li>
+            <li>
+                <span class="circle-one"></span>
+                <a href="experience.html">Experience</a>
+                <span class="connector"></span>
+            </li>
+            <li>
+                <span class="circle-one"></span>
+                <span class="circle-active"></span>
+                <a href="inspiration.html">Inspiration</a>
+                <span class="connector"></span>
+            </li>
+            <li>
+                <span class="circle-one"></span>
+                <a href="shop.html">Shop</a>
+            </li>
+        </ul>
     </div>
     <!-- ========== START SIDE-NAV ========== -->
 
     <!-- ========= START MAIN CONTENT ========= -->
     <main>
-        <section class="wrapper-with-options">
-            <h1>Go beyond music. Immerse your senses through vibration.</h1>
-            <figure>
-                <img src="assets/img/section-about-1.jpg" alt="">
-            </figure>
+        <section class="inspiration">
+            <video autoplay>
+                <source src="../video/Magical_Home.mp4" type="video/mp4">
+
+            </video>
         </section>
 
-        <section class="wrapper-with-options">
-            <div>
-                <h1>DESIGN ALCHEMY</h1>
-                <p>The fundamentals of good design are eternal. Innovation is essential. We balance rigorous design with
-                    an
-                    openness to experimentation in our mission to create products that enrich your life. The creation of
-                    an
-                    excellent product is not a matter of simple fabrication. Our long heritage of master craftsmanship,
-                    from
-                    the materials we select to how we craft each product, imbues everything we make with precision and
-                    feeling.</p>
+        <div class="exist-to-create">
+            <h3>AN ALCHEMY OF DESIGN, CRAFT AND SOUND.</h3>
+            <h1>Exist to Create.</h1>
+            <a class="button" href="#">SOUND</a>
+            <a class="button" href="#">DESIGN</a>
+            <a class="button" href="#">CRAFT</a>
+            <p>We define our world through imagination.</p>
+        </div>
+
+        <section class="flex-grid-two-nr">
+
+            <div class="col-50">
+                <img src="../img/ETC_6.webp" alt="">
             </div>
-            <figure>
-                <img src="assets/img/BS1_NYC_Home.webp" alt="">
-            </figure>
+
+            <div class="col-50">
+                <h1>Sound Alchemy</h1>
+                <h1>A feeling for sound</h1>
+                <p>The power of music is without bounds, it goes straight to our hearts. Our job is to do justice to
+                    that power. We make that feeling thrive by creating the most impactful, accurate and immersive sound
+                    experience possible.</p>
+            </div>
         </section>
+
+        <section class="flex-grid-two">
+
+            <div class="col-50">
+                <img src="../img/ETC_5.webp" alt="">
+            </div>
+
+            <div class="col-50">
+                <h1>Sound Alchemy</h1>
+                <h1>A feeling for sound</h1>
+                <p>The power of music is without bounds, it goes straight to our hearts. Our job is to do justice to
+                    that power. We make that feeling thrive by creating the most impactful, accurate and immersive sound
+                    experience possible.</p>
+            </div>
+        </section>
+
     </main>
     <!-- ========= END MAIN CONTENT ========= -->
 </body>
