@@ -227,6 +227,13 @@ section:nth-of-type(1)>figure {
 /*----------------------------------------
   section inspiration
 ----------------------------------------*/
+.pl-5 {
+    padding-left: 5%;
+}
+
+.pr-5 {
+    padding-right: 5%;
+}
 
 .inspiration {
     text-align: center;
@@ -242,7 +249,7 @@ section.inspiration div {
 }
 
 .exist-to-create {
-    margin-left: 20%;
+    margin: 10% 0 10% 20%;
 }
 
 .flex-grid-two-nr {
