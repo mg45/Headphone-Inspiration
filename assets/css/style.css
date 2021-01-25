@@ -279,6 +279,9 @@ section.inspiration div {
 /*----------------------------------------
   section shop
 ----------------------------------------*/
+.shop-buy {
+    text-align: center;
+}
 
 .shop-bg {
     background: url('../img/section-composition4.jpg') center / cover no-repeat;
